@@ -1,0 +1,78 @@
+.object {
+    margin-bottom: 90px;
+    &__wrapper {
+        padding-top: 68px;
+        padding-left: 96px;
+        padding-bottom: 63px;
+        background-color: #002856;
+        border-radius: 16px;
+        position: relative; 
+        z-index: -1;
+
+        &::after{
+            content: url(../../images/img/objectyellow.png);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        &__heading {
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 64px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+            width: 736px;
+        }
+
+        form {
+            margin-top: 24px;
+
+            input {
+                display: block;
+                width: 686px;
+                margin-bottom: 32px;
+                padding: 28px 20px;
+                background: #FFFFFF;
+                border-radius: 8px;
+
+                &::placeholder {
+                    font-family: 'Inter';
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+
+                }
+
+            }
+            button {
+                display: block;
+                width: 686px;
+                padding: 28px 20px;
+                background: #FFC212;
+                font-family: 'Inter';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+            }
+        }
+        img{
+            position: absolute;
+            bottom: 0;
+            right: 5%;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.counter {
+    margin-bottom: 100px;
+    &__wrapper {
+        &__heading {
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: 0.04em;
+            color: #020105;
+            margin-bottom: 40px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 148px;
+
+            &__item {
+                padding: 176px 115px;
+                border: 1px solid #B5954E;
+                border-radius: 50%;
+                opacity: 0.6;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                &__counter {
+                    font-family: 'Oswald';
+                    font-weight: 500;
+                    font-size: 144px;
+                    line-height: 152px;
+                    letter-spacing: 0.06em;
+                    color: #000;
+                    margin-bottom: 8px;
+
+                    span {
+                        color: #B5954E;
+                    }
+
+                }
+
+                &__text {
+                    font-family: 'Inter';
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #353437;
+                    width: 348px;
+                }
+            }
+        }
+
+        &__bottom {
+            background: #002856;
+            border-radius: 16px;
+            width: 100%;
+            position: relative;
+            padding: 285px 0 410px 0;
+            background-image: url(../../images/icons/economMoney.svg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+
+            img {
+                position: absolute;
+                left: 18%;
+                top: -10%;
+            }
+
+            &__contents {
+                position: absolute;
+                left: 28%;
+                display: flex;
+                &__left{
+                    
+                    &__item {
+                        font-family: 'Oswald';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 70.7893px;
+                        line-height: 56px;
+                        text-align: center;
+                        letter-spacing: 0.04em;
+                        color: #FFFFFF;
+                        text-shadow: 0px 7.37595px 16px rgba(0, 0, 0, 0.24), 0px -7.07893px 14.1579px rgba(0, 0, 0, 0.08);
+                        width: 271px;
+                        margin-bottom: 32px;
+                    }
+                }
+
+
+                &__money {
+                    position: absolute;
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 70.7893px;
+                    line-height: 56px;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #FFFFFF;
+                    text-shadow: 0px 7.37595px 16px rgba(0, 0, 0, 0.24), 0px -7.07893px 14.1579px rgba(0, 0, 0, 0.08);
+                    width: 271px;
+                    margin-bottom: 32px;
+                    left: 150%;
+                    top: 10%;
+                }
+            }
+
+        }
+    }
+}

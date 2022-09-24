@@ -1,0 +1,30 @@
+.partners {
+    margin-bottom: 124px;
+    &__wrapper {
+        &__heading {
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: 0.04em;
+            color: #020105;
+            margin-bottom: 32px;
+
+        }
+
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(4, 402px);
+            grid-template-rows: repeat(2, 208px);
+            gap: 24px;
+
+            &__item {
+                background: #FFFFFF;
+                border-radius: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

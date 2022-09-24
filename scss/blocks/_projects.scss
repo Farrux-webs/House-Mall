@@ -1,0 +1,155 @@
+.projects {
+    margin-bottom: 120px;
+    &__wrapper {
+
+        &__heading {
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: 0.04em;
+            color: #020105;
+            margin-bottom: 32px;
+        }
+
+        &__list {
+            display: flex;
+            align-items: stretch;
+            list-style-type: none;
+            flex-wrap: wrap;
+
+            &__item {
+                background: linear-gradient(180deg, rgba(2, 1, 5, 0) 0%, rgba(2, 1, 5, 0.8) 100%), url(../../images/img/video-main.png);
+                border-radius: 0px 0px 16px 16px;
+                padding: 32px;
+
+                &:hover{
+                    background: linear-gradient(180deg, rgba(26, 26, 47, 0) 0%, rgba(32, 32, 49, 0) 100%), url(../../images/img/video-main.png);
+                }
+
+                &__link {
+                    @extend .kirpichni;
+                    margin-bottom: 306px;
+                }
+
+                &__contents {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    position: relative;
+
+                    &__left {
+                        &__city {
+                            font-family: 'Inter';
+                            font-weight: 500;
+                            font-size: 30px;
+                            line-height: 38px;
+                            color: #FFFFFF;
+                            margin-bottom: 8px;
+
+                        }
+
+                        &__region {
+                            font-family: 'Inter';
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 32px;
+                            color: #FFFFFF;
+                            margin-bottom: 24px;
+                        }
+
+                        &__comforts {
+                            width: 450px;
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            
+
+                            &__item {
+                                font-family: 'Inter';
+                                font-family: 'Inter';
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 28px;
+                                color: #FFFFFF;
+                                margin-right: 35px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                &:first-child{
+                                    &::before{
+                                        content: url(../../images/icons/floor.svg);
+                                        margin-right: 11px;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    &::before{
+                                        content: url(../../images/icons/before2.svg);
+                                        margin-right: 11px;
+                                    }
+                                }
+                                &:last-child{
+                                    &::before{
+                                        content: url(../../images/icons/Vector.svg);
+                                        margin-right: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &__cost {
+                        font-family: 'Inter';
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: #FFC212;
+                        position: absolute;
+                        right: 0;
+                        span{
+                            font-family: 'Inter';
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 40px;
+                        color: #FFC212;
+                        }
+                    }
+                }
+
+                &:first-child {
+                    width: 856px;
+                    margin-right: 24px;
+                    margin-bottom: 24px;
+                    position: relative;
+
+                    &__contents{
+                        &__left{
+                            position: relative;
+                            &__comforts{
+                                position: absolute;
+                                bottom: 0   ;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    width: 686px;
+                    margin-bottom: 24px;
+
+
+                }
+
+                &:nth-child(3){
+                    margin-right: 24px;
+                    width: 686px;
+                }
+
+                &:last-child {
+                    width: 856px;
+                }
+            }
+        }
+    }
+}

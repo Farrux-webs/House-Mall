@@ -1,0 +1,39 @@
+.video{
+    margin-bottom: 120px;
+    padding-top: 96px;
+    &__wrapper{
+        &__heading{
+            margin-left: 290px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            position: relative;
+            z-index: -1;
+
+        }
+
+        &__list{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+
+            &__item{
+                margin-right: 12px;
+
+                &:first-child{
+                    img{
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        outline: 4px solid rgb(255, 187, 0);
+}
+                }
+            }
+        }
+    }
+}

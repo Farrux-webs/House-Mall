@@ -1,0 +1,84 @@
+.invite {
+    margin-bottom: 224px;
+    &__wrapper {
+        &__heading {
+            font-family: "Oswald";
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 80px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #000;
+            margin: auto;
+            margin-bottom: 32px;
+
+            span {
+                color: #B5954E;
+            }
+        }
+
+        &__text {
+            font-family: 'Inter';
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            color: #5D5D5F;
+            margin: auto;
+            width: 828px;
+            margin-bottom: 40px;
+        }
+
+        &__list {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+
+            &__item {
+                padding: 184px 45px;
+                width: 577px;
+                border: 1px solid #B5954E;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                position: relative;
+
+                &__heading {
+                    font-family: 'Oswald';
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 56px;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #000000;
+                    margin-bottom: 24px;
+                }
+
+                &__text {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #5D5D5F;
+                }
+
+                &__number {
+                    font-family: 'Druk Cyr';
+                    font-weight: 500;
+                    font-size: 460.541px;
+                    line-height: 537px;
+                    text-align: center;
+                    color: #B5954E;
+                    opacity: 0.05;
+                    position: absolute;
+                    top: 5%;
+                    left: 10%;
+                }
+            }
+        }
+    }
+}

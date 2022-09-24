@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $body-bg;
+}
+.kirpichni{
+    font-family: 'Inter';
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #667B8C;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+background: #F5F5F7;
+border-radius: 8px;
+width: 149px;
+text-decoration: none;
+}

@@ -1,0 +1,184 @@
+.problems {
+    background-color: $problems-bg;
+    padding-top: 96px;
+
+    &__wrapper {
+        padding: 0 304px 100px 304px;
+        background-image: url(../../images/icons/Maskgroup.svg);
+        background-repeat: no-repeat;
+        background-position-x: 85%;
+
+        &__heading {
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            padding-bottom: 24px;
+        }
+
+        &__heading2 {
+            position: relative;
+            padding-top: 72px;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                background-color: $problems-top-text-after;
+                height: 1px;
+                z-index: 1;
+            }
+        }
+
+        &__text {
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: $problems-main-color;
+            padding-bottom: 40px;
+            position: relative;
+
+
+            &::after {
+                content: '';
+                display: block;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                background-color: $problems-top-text-after;
+                height: 1px;
+                z-index: 1;
+            }
+
+        }
+
+        &__question1 {
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding-top: 40px;
+
+            &::after {
+                content: url(../../images/icons/slider.svg);
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+            }
+
+
+        }
+
+        &__problem {
+            margin-top: 36px;
+            padding-left: 30px;
+
+
+            &__heading {
+                font-family: 'Inter';
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+            }
+
+            &__list {
+                width: 535px;
+                list-style-type: none;
+                margin-top: 32px;
+                padding-bottom: 40px;
+
+
+                &__item {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #C7EEFF;
+                    position: relative;
+                    margin-bottom: 32px;
+                    display: flex;
+                    align-items: center;
+
+
+
+                    &::before {
+                        content: url(../../images/icons/problemItemBefore.svg);
+                        display: block;
+                        padding-right: 12px;
+                    }
+                }
+            }
+
+            &__question2 {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    background-color: $problems-top-text-after;
+                    height: 1px;
+                    z-index: 1;
+                }
+                &::after {
+                    content: url(../../images/icons/slider.svg);
+                    transform: rotate(90deg);
+                    -webkit-transform: rotate(90deg);
+                    -moz-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                    -o-transform: rotate(90deg);
+                }
+
+            }
+        }
+
+
+
+        &__list {
+            list-style-type: none;
+            width: 1182px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -12px;
+
+            &__item {
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                border: 1px solid #024B80;
+                border-radius: 97px;
+                padding: 15px 25px;
+                display: flex;
+                align-items: center;
+                margin-right: 12px;
+                margin-bottom: 15px;
+
+                &::before {
+                    content: url(../../images/icons/x.svg);
+                    margin-right: 12px;
+
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.hero {
+    margin-bottom: 120px;
+    &__wrapper {
+        &__heading {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 80px;
+            letter-spacing: 0.04em;
+            color: $hero-heading;
+            margin-bottom: 40px;
+        }
+
+
+        &__list {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+
+            &__item {
+                overflow-x: hidden;
+                background: #FFFFFF;
+                border-radius: 24px;
+                width: 402px;
+                padding: 24px 44px 380px 24px;
+                position: relative;
+                z-index: -1;
+
+
+                &:first-child{
+
+                    &::after{
+                        content: url(../../images/icons/partner.svg);
+                        position: absolute;
+                        z-index: 0;
+                        bottom: 0;
+                        right: 0;
+                        
+
+                    }
+                }
+
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+                &:nth-child(2){
+
+                    &::before{
+                        content: url(../../images/icons/legalActivity.svg);
+                        position: absolute;
+                        z-index: 0;
+                        bottom: 0;
+                        left: 0;
+                    }
+                    &::after{
+                        content: url(../../images/icons/legalActivityafter.svg);
+                        position: absolute;
+                        z-index: 0;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+
+                &:nth-child(3){
+                    
+
+
+                    &::before{
+                        content: url(../../images/icons/sepacialist.svg);
+                        position: absolute;
+                        z-index: 0;
+                        bottom: 0;
+                        left: 0;
+                    }
+
+                    
+                }
+                &:last-child{
+                    &::before{
+                        content: url(../../images/icons/consultation.svg);
+                        position: absolute;
+                        z-index: 0;
+                        bottom: 0;
+                    }
+                }
+                
+
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    z-index: 1;
+                }
+
+
+                
+
+
+
+                &__heading {
+                    font-family: 'Oswald';
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 40px;
+                    letter-spacing: 0.04em;
+                    color: $hero-heading;
+                    margin-bottom: 20px;
+
+                }
+
+                &__text {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: $hero-item-desc;
+
+                }
+            }
+        }
+    }
+}

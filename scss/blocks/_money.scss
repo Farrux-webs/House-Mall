@@ -1,0 +1,109 @@
+.money {
+    margin-bottom: 224px;
+    &__wrapper {
+        &__heading {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 80px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #000;
+            margin-bottom: 48px;
+
+            span {
+                color: #B5954E;
+            }
+        }
+
+        &__list {
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(4, 402px);
+            grid-template-rows: repeat(2, 264px);
+            gap: 24px;
+
+            &__item {
+                border: 1px solid #294A71;
+                border-radius: 16px;
+                padding: 147px 15px 15px 15px;
+                position: relative;
+                background-color: rgb(188, 192, 195);
+                &:first-child{
+                    &::before{
+                        content: url(../../images/icons/money1.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+
+                &:nth-child(2){
+                    &::before{
+                        content: url(../../images/icons/money2.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:nth-child(3){
+                    &::before{
+                        content: url(../../images/icons/money3.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:nth-child(4){
+                    &::before{
+                        content: url(../../images/icons/money4.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:nth-child(5){
+                    &::before{
+                        content: url(../../images/icons/money5.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:nth-child(6){
+                    &::before{
+                        content: url(../../images/icons/money6.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:nth-child(7){
+                    &::before{
+                        content: url(../../images/icons/money7.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+                &:last-child{
+                    &::before{
+                        content: url(../../images/icons/money8.svg);
+                        position: absolute;
+                        top: 5%;
+                        left: 3%;
+                    }
+                }
+
+                &__text {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
