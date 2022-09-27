@@ -1,5 +1,6 @@
 .invite {
     margin-bottom: 224px;
+
     &__wrapper {
         &__heading {
             font-family: "Oswald";
@@ -36,7 +37,7 @@
             align-items: stretch;
 
             &__item {
-                padding: 184px 45px;
+                padding: 160px 45px;
                 width: 577px;
                 border: 1px solid #B5954E;
                 border-radius: 50%;
@@ -45,6 +46,22 @@
                 -ms-border-radius: 50%;
                 -o-border-radius: 50%;
                 position: relative;
+
+                &:first-child {
+                    transform: translateX(5%);
+                    -webkit-transform: translateX(5%);
+                    -moz-transform: translateX(5%);
+                    -ms-transform: translateX(5%);
+                    -o-transform: translateX(5%);
+}
+
+                &:last-child {
+                    transform: translateX(-5%);
+                    -webkit-transform: translateX(-5%);
+                    -moz-transform: translateX(-5%);
+                    -ms-transform: translateX(-5%);
+                    -o-transform: translateX(-5%);
+}
 
                 &__heading {
                     font-family: 'Oswald';

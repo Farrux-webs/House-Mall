@@ -1,13 +1,11 @@
 .object {
-    margin-bottom: 90px;
+    background-color: #002856;
+    padding-top: 68px;
+    padding-left: 96px;
+    padding-bottom: 63px;
+    position: relative; 
     &__wrapper {
-        padding-top: 68px;
-        padding-left: 96px;
-        padding-bottom: 63px;
-        background-color: #002856;
         border-radius: 16px;
-        position: relative; 
-        z-index: -1;
 
         &::after{
             content: url(../../images/img/objectyellow.png);
@@ -48,10 +46,10 @@
 
                 &::placeholder {
                     font-family: 'Inter';
-                    font-weight: 600;
-                    font-size: 24px;
+                    font-weight: 400;
+                    font-size: 20px;
                     line-height: 32px;
-                    color: #FFFFFF;
+                    color: rgb(169, 172, 178);
 
                 }
 
@@ -70,7 +68,7 @@
         }
         img{
             position: absolute;
-            bottom: 0;
+            bottom: 0.7%;
             right: 5%;
             z-index: 1;
         }

@@ -36,7 +36,7 @@
                             font-family: 'Inter';
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 16px;
+                            font-size: 18px;
                             line-height: 24px;
                             color: #B4C2F7;
 
@@ -55,7 +55,7 @@
                     &__item {
                         font-family: 'Inter';
                         font-weight: 400;
-                        font-size: 15px;
+                        font-size: 18px;
                         line-height: 18px;
                         color: #FFFFFF;
                         margin-bottom: 20px;
@@ -64,7 +64,7 @@
                         &__link {
                             font-family: 'Inter';
                             font-weight: 600;
-                            font-size: 15px;
+                            font-size: 18px;
                             line-height: 18px;
                             color: #FFC212;
                             text-decoration: none;
@@ -84,10 +84,14 @@
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 15px;
+                        font-size: 18px;
                         line-height: 18px;
 
                         color: #B4C2F7;
+
+                        &__address{
+                            margin-top: 12px;
+                        }
 
                         &__link {
                             text-decoration: none;
@@ -99,6 +103,7 @@
                             color: #FFC212;
                             display: block;
                             text-decoration: none;
+                            margin-top: 4px;
 
                             span {
                                 text-decoration: none;

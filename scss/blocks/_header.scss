@@ -123,13 +123,78 @@
                     }
                 }
             }
-        &__ham{
-            display: none;
-        }
-
         }
     }
 
-    @media only screen and (max-width: 1010px){
+    .intro__slider{
+        padding-top: 24px;
+        background-image: url(../../images/img/slider2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 88px;
+        margin-bottom: 86px;
+        &__wrapperS{
+            &__slider{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+
+                &__contents {
+                    &__heading {
+                        font-family: 'Oswald';
+                        font-weight: 500;
+                        font-size: 100px;
+                        line-height: 100px;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        width: 902px;
+                        margin: 0;
+                        margin-bottom: 24px;
         
+                    }
+        
+                    &__span {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: #FFFFFF;
+                    }
+                }
+                &__sliders {
+                    width: 192px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center; 
+            
+                    &__item {
+                        border-radius: 50%;
+                        padding: 25px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid #FFFFFF;
+                        width: 80px;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        cursor: pointer;
+            
+                        &:last-child {
+                            img {
+                                transform: rotate(180deg);
+                                -webkit-transform: rotate(180deg);
+                                -moz-transform: rotate(180deg);
+                                -ms-transform: rotate(180deg);
+                                -o-transform: rotate(180deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+

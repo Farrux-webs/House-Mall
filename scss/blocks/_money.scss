@@ -1,5 +1,7 @@
 .money {
     margin-bottom: 224px;
+    background-color:$problems-bg ;
+    padding: 48px 0;
     &__wrapper {
         &__heading {
             font-family: 'Oswald';
@@ -9,7 +11,7 @@
             line-height: 80px;
             text-align: center;
             letter-spacing: 0.04em;
-            color: #000;
+            color: #fff ;
             margin-bottom: 48px;
 
             span {
@@ -27,13 +29,13 @@
             &__item {
                 border: 1px solid #294A71;
                 border-radius: 16px;
-                padding: 147px 15px 15px 15px;
+                padding: 30px;
+                
                 position: relative;
-                background-color: rgb(188, 192, 195);
+
                 &:first-child{
                     &::before{
                         content: url(../../images/icons/money1.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -42,15 +44,13 @@
                 &:nth-child(2){
                     &::before{
                         content: url(../../images/icons/money2.svg);
-                        position: absolute;
-                        top: 5%;
+                        top: 3%;
                         left: 3%;
                     }
                 }
                 &:nth-child(3){
                     &::before{
                         content: url(../../images/icons/money3.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -58,7 +58,6 @@
                 &:nth-child(4){
                     &::before{
                         content: url(../../images/icons/money4.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -66,7 +65,6 @@
                 &:nth-child(5){
                     &::before{
                         content: url(../../images/icons/money5.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -74,7 +72,6 @@
                 &:nth-child(6){
                     &::before{
                         content: url(../../images/icons/money6.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -82,7 +79,6 @@
                 &:nth-child(7){
                     &::before{
                         content: url(../../images/icons/money7.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -90,7 +86,6 @@
                 &:last-child{
                     &::before{
                         content: url(../../images/icons/money8.svg);
-                        position: absolute;
                         top: 5%;
                         left: 3%;
                     }
@@ -101,7 +96,11 @@
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 28px;
-                    color: #000;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 7%;
+                    width: 290px;
+                    
                 }
             }
         }

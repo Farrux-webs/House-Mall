@@ -1,5 +1,6 @@
 .counter {
     margin-bottom: 100px;
+
     &__wrapper {
         &__heading {
             font-family: 'Oswald';
@@ -31,6 +32,21 @@
                 justify-content: space-between;
                 align-items: center;
 
+                &:first-child {
+                    transform: translateX(8%);
+                    -webkit-transform: translateX(8%);
+                    -moz-transform: translateX(8%);
+                    -ms-transform: translateX(8%);
+                    -o-transform: translateX(8%);
+                }
+                &:last-child {
+                    transform: translateX(-8%);
+                    -webkit-transform: translateX(-8%);
+                    -moz-transform: translateX(-8%);
+                    -ms-transform: translateX(-8%);
+                    -o-transform: translateX(-8%);
+}
+
                 &__counter {
                     font-family: 'Oswald';
                     font-weight: 500;
@@ -60,26 +76,25 @@
 
         &__bottom {
             background: #002856;
-            border-radius: 16px;
             width: 100%;
             position: relative;
             padding: 285px 0 410px 0;
             background-image: url(../../images/icons/economMoney.svg);
             background-repeat: no-repeat;
             background-position: bottom;
-
             img {
                 position: absolute;
                 left: 18%;
-                top: -10%;
+                top: -10.5%;
             }
 
             &__contents {
                 position: absolute;
                 left: 28%;
                 display: flex;
-                &__left{
-                    
+
+                &__left {
+
                     &__item {
                         font-family: 'Oswald';
                         font-style: normal;
